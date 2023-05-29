@@ -12,7 +12,7 @@ const FeatureSpotlight = () => {
           Hit{' '}
           <img
             src={CommandImg}
-            alt="Command"
+            alt="Command + K"
             className="h-6 inline-block align-top"
           />{' '}
           to bring up the context-sensitive command menu. Edit an issue&apos;s
