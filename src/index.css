@@ -7,13 +7,13 @@
     @apply bg-primary-dark-gray text-white;
   }
   h1 {
-    @apply text-7xl font-[800] mb-12 leading-tight;
+    @apply text-4xl md:text-7xl font-[800] mb-12 mt-4 leading-tight;
   }
   h2 {
-    @apply text-3xl font-semibold my-4;
+    @apply text-2xl md:text-3xl font-semibold my-4;
   }
   h3 {
-    @apply text-2xl font-semibold;
+    @apply text-xl md:text-2xl font-semibold;
   }
   p {
     @apply text-xl leading-relaxed;
@@ -38,21 +38,6 @@ span {
 }
 
 .hero-section {
-  /* background-image: linear-gradient(
-    180deg,
-    hsl(225deg 6% 14%) 0%,
-    hsl(227deg 16% 13%) 9%,
-    hsl(229deg 27% 12%) 18%,
-    hsl(232deg 37% 11%) 27%,
-    hsl(246deg 41% 12%) 36%,
-    hsl(274deg 43% 12%) 45%,
-    hsl(303deg 49% 12%) 55%,
-    hsl(323deg 63% 14%) 64%,
-    hsl(315deg 46% 14%) 73%,
-    hsl(281deg 27% 15%) 82%,
-    hsl(248deg 16% 15%) 91%,
-    hsl(225deg 6% 14%) 100%
-  ); */
   background-image: linear-gradient(
     180deg,
     hsl(248deg 16% 10%) 0%,
@@ -67,6 +52,22 @@ span {
     hsl(278deg 13% 11%) 83%,
     hsl(262deg 14% 10%) 92%,
     hsl(248deg 16% 10%) 100%
+  );
+}
+
+.sidemenu {
+  background-image: linear-gradient(
+    180deg,
+    hsl(229deg 27% 12%) 18%,
+    hsl(232deg 37% 11%) 27%,
+    hsl(246deg 41% 12%) 36%,
+    hsl(274deg 43% 12%) 45%,
+    hsl(303deg 49% 12%) 55%,
+    hsl(323deg 63% 14%) 64%,
+    hsl(315deg 46% 14%) 73%,
+    hsl(281deg 27% 15%) 82%,
+    hsl(248deg 16% 15%) 91%,
+    hsl(225deg 6% 14%) 100%
   );
 }
 

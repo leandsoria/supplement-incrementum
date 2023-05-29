@@ -7,12 +7,12 @@ function EmailForm() {
   return (
     <form
       onSubmit={submitFormHandler}
-      className="flex flex-row justify-between w-full max-w-xl p-2 mt-8 rounded-md bg-[rgba(255,255,255,.08)]"
+      className="flex flex-col md:flex-row justify-between w-full max-w-xl p-2 mt-8 rounded-md bg-[rgba(255,255,255,.08)]"
     >
       <input
         type="email"
         placeholder="> enter your email"
-        className="bg-transparent pl-6 outline-none text-white"
+        className="bg-transparent mb-6 md:mb-0 md:pl-6 text-center outline-none text-white"
       />
       <ButtonDark />
     </form>
