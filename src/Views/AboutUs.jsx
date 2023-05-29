@@ -106,7 +106,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#27282D] py-12 rounded-md pl-4 relative overflow-hidden">
+      <div className="bg-[#27282D] py-12 pt-24 pl-12 mt-24 rounded-md  relative overflow-hidden">
         <div className="max-w-[60%]">
           <h3>Get Linear Early Access</h3>
           <p className="text-base text-gray-400">
@@ -119,7 +119,7 @@ const AboutUs = () => {
         <img
           src={InterfaceImg}
           alt="Dashboard"
-          className="rounded-md absolute left-[65%] top-[25%] bottom-0"
+          className="rounded-md absolute left-[60%] top-24 bottom-0"
         />
       </div>
     </Section>
