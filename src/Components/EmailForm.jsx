@@ -12,7 +12,7 @@ function EmailForm() {
       <input
         type="email"
         placeholder="> enter your email"
-        className="bg-transparent mb-6 md:mb-0 md:pl-6 text-center outline-none text-white"
+        className="bg-transparent w-full mb-6 md:mb-0 md:pl-6 text-center md:text-left outline-none text-white "
       />
       <ButtonDark />
     </form>
