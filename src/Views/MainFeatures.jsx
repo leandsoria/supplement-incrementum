@@ -16,7 +16,7 @@ function MainFeatures() {
           With Linear, we are creating an issue tracker with an unrivalled user
           experience. Linear is optimized for speed, efficiency and performance.
           its realtime sync architecture makes it blazingly fast. Its
-          minimalistic, purposeful design helps your team achieve more
+          minimalistic, purposeful design helps your team achieve more.
         </p>
       </div>
       <div className="flex flex-row gap-1 w-full flex-wrap rounded-md overflow-hidden">
