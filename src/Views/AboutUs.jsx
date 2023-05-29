@@ -9,7 +9,7 @@ import GetForm from '../Components/GetForm';
 const AboutUs = () => {
   return (
     <Section styles={'bg-[#17161D]'}>
-      <div className="mb-8 pb-8 border-b border-b-[rgba(255,255,255,.1)]">
+      <div className="mb-8 pb-12 border-b border-b-[rgba(255,255,255,.1)]">
         <h4 className="text-primary-blue font-semibold">About us</h4>
         <h2>The Linear team</h2>
         <p className="text-base text-gray-400">
@@ -17,7 +17,7 @@ const AboutUs = () => {
           design projects at multiple startups and high-growth environments like
           Uber, Airbnb and Coinbase.
         </p>
-        <div className="flex flex-col md:flex-row gap-6 mt-8">
+        <div className="flex flex-col md:flex-row gap-6 mt-10">
           <a
             href="#"
             className="text-primary-blue tracking-wide hover:brightness-125 ease-in-out transtion-all"
@@ -37,7 +37,7 @@ const AboutUs = () => {
           <img
             src={Person1}
             alt="Agent"
-            className="rounded-md w-16 mx-auto mb-4"
+            className="rounded-md w-16 mx-auto md:mx-0 mb-4"
           />
           <p className="text-base text-primary-gray mb-2">Tuomas Artman</p>
           <p className="text-base text-gray-400">
@@ -50,14 +50,14 @@ const AboutUs = () => {
               <img
                 src={Twitter}
                 alt="Linkeding Icon"
-                className=" w-5 hover:brightness-125 ease-in-out transtion-all"
+                className="w-5 hover:brightness-125 ease-in-out transtion-all"
               />
             </a>
             <a href="#">
               <img
                 src={LinkedIn}
                 alt="Linkeding Icon"
-                className=" w-5 hover:brightness-125 ease-in-out transtion-all"
+                className="w-5 hover:brightness-125 ease-in-out transtion-all"
               />
             </a>
           </div>
@@ -66,7 +66,7 @@ const AboutUs = () => {
           <img
             src={Person2}
             alt="Agent"
-            className="rounded-md w-16 mx-auto mb-4"
+            className="rounded-md w-16 mx-auto md:mx-0 mb-4"
           />
           <p className="text-base text-primary-gray mb-2">Karri Saarinen</p>
           <p className="text-base text-gray-400">
@@ -95,7 +95,7 @@ const AboutUs = () => {
           <img
             src={Person3}
             alt="Agent"
-            className="rounded-md w-16 mb-4 grayscale mx-auto"
+            className="rounded-md w-16 mb-4 grayscale mx-auto md:mx-0"
           />
           <p className="text-base text-primary-gray mb-2">Jori Lallo</p>
           <p className="text-base text-gray-400">

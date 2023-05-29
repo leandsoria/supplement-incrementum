@@ -15,7 +15,7 @@ const Integrations = () => {
           Linear ties into your existing tools, services and workflow.
         </p>
       </div>
-      <div className="flex flex-row gap-y-1 md:gap-y-0 gap-x-1 w-full flex-wrap rounded-md overflow-hidden">
+      <div className="flex flex-row gap-y-1 lg:gap-y-0 gap-x-1 w-full flex-wrap rounded-md overflow-hidden">
         <FeaturedCards
           icon={Github}
           title="Github"
