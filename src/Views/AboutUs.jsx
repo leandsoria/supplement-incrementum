@@ -11,7 +11,7 @@ const AboutUs = () => {
     <Section styles={'bg-[#17161D]'}>
       <div className="mb-8 pb-8 border-b border-b-[rgba(255,255,255,.1)]">
         <h4 className="text-primary-blue font-semibold">About us</h4>
-        <h2>The Lienar team</h2>
+        <h2>The Linear team</h2>
         <p className="text-base text-gray-400">
           Our team has lead, scaled and delivered large scale software and
           design projects at multiple startups and high-growth environments like
